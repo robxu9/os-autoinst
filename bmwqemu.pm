@@ -890,7 +890,7 @@ sub waitinststage($;$$) {
 
 sub waitforneedle($;$$$);
 
-sub waitforneedle {
+sub waitforneedle($;$$$) {
 	my $mustmatch=shift;
 	my $timeout=shift||30;
 	my $check=shift;
